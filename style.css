@@ -30,3 +30,16 @@ header ul {
 header ul li {
     list-style: none;
 }
+
+#hero {
+    background-image: url("tło8.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
