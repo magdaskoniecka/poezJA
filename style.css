@@ -42,4 +42,19 @@ header ul li {
     justify-content: center;
     align-items: center;
 }
+
+.kontener {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 13rem;
+}
+  
+  
+#hero img {
+    width: 240px;
+    height: auto;
+}
+  
   
