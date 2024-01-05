@@ -44,6 +44,7 @@ header ul li {
 }
 
 .kontener {
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,4 +58,32 @@ header ul li {
     height: auto;
 }
   
-  
+.btn {
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem 2rem;
+    font-size: 0.9rem;
+    font-weight: 900;
+    text-transform:uppercase;
+    border: none;
+    border-radius: 10rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(246, 239, 110);
+    text-decoration: none;
+}
+
+#portfolio {
+    background-color: yellow;
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#omnie {
+    background-color: blue;
+}
+
+#kontakt {
+    background-color: red;
+}
