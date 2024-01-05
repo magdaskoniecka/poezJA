@@ -11,4 +11,22 @@ header {
     padding-bottom: 0.5rem;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
-  }
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    padding-left: 48px;
+    font-size: 1.25rem;
+}
+  
+  
+header ul {
+    padding-right: 48px;
+    display: flex;
+}
+  
+  
+header ul li {
+    list-style: none;
+}
