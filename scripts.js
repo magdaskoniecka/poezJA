@@ -208,6 +208,29 @@ var modalTexts = [
     "Boże, no życie jak marzenie.\n" +
     "Nie, niemożliwe - nagle się budzę!\n" +
     "Okazuje się że tylko w kościele się nudzę"
+    ,
+
+    "Dear Reader,\n" +
+    "Kończy się właśnie okrutne lato\n" +
+    "Ale świętowania będzie aż nadto\n" +
+    "W końcu są Twoje urodziny,\n" +
+    "confetti i sparks fly od co najmniej godziny.\n" +
+    "A te życzenia - to dopiero będzie hit,\n" +
+    "więc...Are you ready for it?\n\n" +
+    
+    "Żeby omijały cię szampańskie problemy,\n" +
+    "W życiu ich raczej nie potrzebujemy.\n" +
+    "I to potwierdzi nawet sam Brad Pitt:\n" +
+    "You are (not) on your own, kid\n" +
+    "I you are so gorgeous - pamiętaj,\n" +
+    "Dlatego o co marzysz ciągle sięgaj.\n\n" +
+    
+    "Życzymy też genialnych wyjazdów jak co rok,\n" +
+    "Może takich typu: Welcome to New York\n" +
+    "Hold on to the memories co dają ci radość,\n" +
+    "żebyś wszystko dobrze wspominała na starość.\n" +
+    "Jeszcze raz wszystkiego najlepszego,\n" +
+    "This is me trying powiedzieć coś miłego."
 ];
 
 function openModal(index) {

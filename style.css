@@ -97,7 +97,7 @@ header ul li {
     vertical-align: top;
     margin: 10px;
     text-align: left;
-    margin-left: 100px; /* Dodatkowy odstęp od lewej strony */
+    margin-left: 100px;
 }
 
 .vertical-button {
@@ -111,12 +111,12 @@ header ul li {
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 10px; /* Zaokrąglenie przycisków */
-    transition: background-color 0.3s ease; /* Animacja zmiany koloru */
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
 }
 
 .vertical-button:hover {
-    background-color: #2078af; /* Kolor po najechaniu myszą */
+    background-color: #2078af;
 }
 
 .modal {
