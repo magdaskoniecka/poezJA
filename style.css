@@ -57,7 +57,7 @@ header ul li {
     height: auto;
 }
   
-.btn {
+.button2 {
     font-family: 'Poppins', sans-serif;
     padding: 1rem 2rem;
     font-size: 0.9rem;
@@ -102,7 +102,8 @@ header ul li {
 
 .vertical-button {
     display: block;
-    width: 80px;
+    width: 100px;
+    height: 60px;
     margin: 20px;
     padding: 15px auto;
     text-align: center;
@@ -155,9 +156,17 @@ header ul li {
 
 
 #omnie {
-    background-color: blue;
+    background-image: url("hela5.jpg");
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
     margin: 0;
     padding: 9px;
+    font-weight: 900;
+    font-size: larger;
 }
 
 #kontakt {

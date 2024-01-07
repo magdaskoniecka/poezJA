@@ -23,7 +23,6 @@ var modalTexts = [
     "To może się jutro dogadam z arkuszem"
     ,
 
-    "Matura z matematyki:\n" +
     "Na maturę z matematyki,\n" +
     "uzyskałam niezłe wtyki:\n" +
     "Jak już gorzej być nie może,\n" +
@@ -198,7 +197,7 @@ var modalTexts = [
     "Wyprowadziłeś mnie na prostą - znalazłeś pracę,\n" +
     "I wreszcie za kawę ja sama płacę."
     ,
-    
+
     "Nie ma teraz ważniejszej sprawy,\n" +
     "niż ta, że nie piłam dzisiaj kawy.\n" +
     "Marzy mi się z książką na tarasie,\n" +
