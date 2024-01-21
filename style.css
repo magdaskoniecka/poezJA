@@ -283,7 +283,7 @@ h3 {
 
 
 /* media queries - telefony */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     header {
       flex-direction: column;
       align-items: center;
@@ -298,7 +298,7 @@ h3 {
     }
   
     #hero {
-      padding: 50px;
+      padding: 20px;
     }
   
     #hero img {
@@ -320,13 +320,16 @@ h3 {
       margin-right: 0;
       margin-left: 0;
       text-align: center;
+      width: 100%;
+      margin: 10px 0;
     }
   
     .przycisk2 {
       width: 120px;
       height: 60px;
-      margin: 20px;
       font-size: 0.8rem;
+      text-align: center;
+      margin: 20px auto;
     }
   
     #omnie {
