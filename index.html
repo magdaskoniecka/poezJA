@@ -29,7 +29,7 @@
         <h1>Przedstawiam poezję na każdą chwilę,<br>
          mam nadzieję, że tym życie umilę.</h1>
         <h3>Helena Kłos</h3>
-        <a class="button2" href="#portfolio">Poznaj moją twórczość</a>
+        <a class="przycisk1" href="#portfolio">Poznaj moją twórczość</a>
       </div>
     </section>
 
@@ -37,24 +37,24 @@
       <h2>Wybrane Wiersze</h2>
       <div class="kolumna-prawa">
           <h3>liceum</h3>
-          <button class="vertical-button" onclick="openModal(0)">"Matura chemia"</button>
-          <button class="vertical-button" onclick="openModal(1)">"Matura matematyka"</button>
-          <button class="vertical-button" onclick="openModal(2)">"Matura język polski"</button>
+          <button class="przycisk2" onclick="openModal(0)">"Matura chemia"</button>
+          <button class="przycisk2" onclick="openModal(1)">"Matura matematyka"</button>
+          <button class="przycisk2" onclick="openModal(2)">"Matura język polski"</button>
       </div>
       <div class="kolumna-środkowa">
           <h3>studia</h3>
-          <button class="vertical-button" onclick="openModal(3)">"B(y)le"</button>
-          <button class="vertical-button" onclick="openModal(4)">"A NA TO MIAłam dość wywalone"</button>
-          <button class="vertical-button" onclick="openModal(5)">"Oh man"</button>
-          <button class="vertical-button" onclick="openModal(6)">"Oszaleję"</button>
-          <button class="vertical-button" onclick="openModal(7)">"Cierpienia Młodego Studenta"</button>
-          <button class="vertical-button" onclick="openModal(8)">"Kot-a-strofa"</button>
+          <button class="przycisk2" onclick="openModal(3)">"B(y)le"</button>
+          <button class="przycisk2" onclick="openModal(4)">"A NA TO MIAłam dość wywalone"</button>
+          <button class="przycisk2" onclick="openModal(5)">"Oh man"</button>
+          <button class="przycisk2" onclick="openModal(6)">"Oszaleję"</button>
+          <button class="przycisk2" onclick="openModal(7)">"Cierpienia Młodego Studenta"</button>
+          <button class="przycisk2" onclick="openModal(8)">"Kot-a-strofa"</button>
       </div>
       <div class="kolumna-lewa">
           <h3>inne</h3>
-          <button class="vertical-button" onclick="openModal(9)">"Dla olx"</button>
-          <button class="vertical-button" onclick="openModal(10)">"Kawa"</button>
-          <button class="vertical-button" onclick="openModal(11)">"Życzenia od ME!"</button>
+          <button class="przycisk2" onclick="openModal(9)">"Dla olx"</button>
+          <button class="przycisk2" onclick="openModal(10)">"Kawa"</button>
+          <button class="przycisk2" onclick="openModal(11)">"Życzenia od ME!"</button>
       </div>
   </section>
 
@@ -77,53 +77,43 @@
     </section>
 
     <section id="kontakt">
-      <h4>ZADAJ NAM PYTANIE!</h4>
+      <h3>ZADAJ MI PYTANIE</h3>
       <form action="https://formspree.io/f/meqyejzn" method="POST">
         <div>
-          <div class="bok">
+          <div class="formularz">
             <input
               type="text"
               name="Full Name"
               class="input"
-              placeholder="Imię i nazwisko"
+              placeholder="imię"
               autocomplete="off"
               required
             />
           </div>
-          <div class="bok">
+          <div class="formularz">
             <input
               type="email"
               name="Email"
               class="input"
-              placeholder="Adres e-mail"
+              placeholder="adres e-mail"
               autocomplete="off"
               required
             />
           </div>
-          <div class="bok">
-            <input
-              type="text"
-              name="Phone"
-              class="input"
-              placeholder="Numer telefonu"
-              autocomplete="off"
-              required
-            />
-          </div>
-          <div class="bok">
+          <div class="formularz">
             <textarea
               name="Message"
               id=""
               cols="30"
               rows="10"
               class="input"
-              placeholder="Twoja wiadomość"
+              placeholder="wiadomość"
               autocomplete="off"
               required
             ></textarea>
           </div>
         </div>
-        <button type="submit" class="klik bok">Wyślij</button>
+        <button type="submit" class="przycisk3">WYŚLIJ</button>
       </form>
     </section>
 
@@ -131,9 +121,10 @@
       <div class="kontener">
         <div class="footerText">Copyright &copy; 2023 - Magda Skoniecka</div>
       </div>
-      <a href="#" id="scrollToTop" class="button">&#8593; Do góry</a>
     </footer>
 </body>
+
+<a href="#" id="scrollToTop" class="button">&#8593; Do góry</a>
 
 <div id="myModal" class="modal">
   <div class="modal-content">
