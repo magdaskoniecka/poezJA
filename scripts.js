@@ -258,7 +258,6 @@ document.addEventListener('scroll', function () {
     }
 });
 
-// Dodaj płynne przewijanie do góry po kliknięciu
 document.getElementById('scrollToTop').addEventListener('click', function (event) {
     event.preventDefault();
     window.scrollTo({
