@@ -267,3 +267,13 @@ document.getElementById('scrollToTop').addEventListener('click', function (event
     });
 });
 
+const aboutMeSection = document.getElementById('omnie');
+
+aboutMeSection.addEventListener('mouseenter', function () {
+    this.style.backgroundColor = '#f39c12'; // Kolor po najechaniu myszką
+});
+
+aboutMeSection.addEventListener('mouseleave', function () {
+    this.style.backgroundColor = 'transparent'; // Oryginalny kolor
+});
+
