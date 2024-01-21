@@ -248,3 +248,20 @@ window.onclick = function (event) {
         modal.style.display = 'none';
     }
 };
+
+document.addEventListener('scroll', function () {
+    const scrollToTopButton = document.getElementById('scrollToTop');
+    if (window.scrollY > 200) {
+        scrollToTopButton.style.display = 'block';
+    } else {
+        scrollToTopButton.style.display = 'none';
+    }
+});
+
+document.getElementById('scrollToTop').addEventListener('click', function (event) {
+    event.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
