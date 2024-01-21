@@ -77,15 +77,61 @@
     </section>
 
     <section id="kontakt">
-      <div class="kontener">
-        <h1>kontakt</h1>
-      </div>
+      <h4>ZADAJ NAM PYTANIE!</h4>
+      <form action="https://formspree.io/f/meqyejzn" method="POST">
+        <div>
+          <div class="bok">
+            <input
+              type="text"
+              name="Full Name"
+              class="input"
+              placeholder="Imię i nazwisko"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div class="bok">
+            <input
+              type="email"
+              name="Email"
+              class="input"
+              placeholder="Adres e-mail"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div class="bok">
+            <input
+              type="text"
+              name="Phone"
+              class="input"
+              placeholder="Numer telefonu"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div class="bok">
+            <textarea
+              name="Message"
+              id=""
+              cols="30"
+              rows="10"
+              class="input"
+              placeholder="Twoja wiadomość"
+              autocomplete="off"
+              required
+            ></textarea>
+          </div>
+        </div>
+        <button type="submit" class="klik bok">Wyślij</button>
+      </form>
     </section>
 
     <footer class="footer">
       <div class="kontener">
         <div class="footerText">Copyright &copy; 2023 - Magda Skoniecka</div>
       </div>
+      <a href="#" id="scrollToTop" class="button">&#8593; Do góry</a>
     </footer>
 </body>
 
