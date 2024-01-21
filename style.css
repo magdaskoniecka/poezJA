@@ -61,10 +61,9 @@ h1 {
 .przycisk1 {
     font-family: 'Poppins', sans-serif;
     padding: 1rem 2rem;
-    font-size: 0.9rem;
-    font-weight: 900;
+    font-weight: 700;
     text-transform:uppercase;
-    border: none;
+    border-style: dotted;
     border-radius: 10rem;
     color: rgb(0, 0, 0);
     background-color: rgb(246, 239, 110);
@@ -103,17 +102,18 @@ h1 {
 
 .przycisk2 {
     display: block;
-    width: 100px;
-    height: 60px;
-    margin: 20px;
+    width: 140px;
+    height: 70px;
+    margin: 40px;
     padding: 15px auto;
     text-align: center;
     background-color: #000000;
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 15px;
     transition: background-color 0.3s ease;
+    font: 1em sans-serif;
 }
 
 .przycisk2:hover {
@@ -159,9 +159,8 @@ h1 {
     cursor: pointer;
 }
 
-
 #omnie {
-    background-image: url("MagicEraser_240121_033148.JPG");
+    background-image: url("tło\ o\ mnie.JPG");
     height: 80vh;
     width: auto;
     background-repeat: no-repeat;
@@ -171,13 +170,16 @@ h1 {
     margin: 0;
     padding: 5px;
     font-weight: 900;
-    font-size: larger;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start
 }
 
 #kontakt {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(248, 249, 250);
-    padding: 6px;
+    background-color: rgb(203, 199, 205);
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -185,61 +187,40 @@ h1 {
     align-items: center;
 }
 
-.button {
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 .formularz {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-    padding-bottom: 40px;
-  }
+    padding-bottom: 45px;
+}
   
-  input {
-    height: 2.5em;
+input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7em;
+    height: 40px;
     border:#000000;
-    border-width: 1px;
-    border-radius: 12px;
+    border-radius: 10px;
     text-indent: 10px;
-  }
+}
   
-  textarea {
+textarea {
+    font-family: 'Poppins', sans-serif;
     border: none;
-    border-bottom: 2px solid gray;
-    font-size: 1em;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+    height: 160px;
     text-indent: 10px;
-    border-radius: 12px;
-  }
+    border-radius: 10px;
+}
   
-  ::placeholder {
+::placeholder {
   
     font-size: 1.5em;
     align-items: baseline;
-  }
+}
   
-  h3 {
-    border-radius: 0;
-    font-size: 2em;
-    text-align: center;
-  }
-  
-  .klik {
-    display: flex;
-    flex-wrap: wrap;
-  
-  }
-  
-  .przycisk3 {
+.przycisk3 {
     font-family: 'Poppins', sans-serif;
-    border:rgb(0, 0, 0);
     border-style: dotted;
     border-radius: 10rem;
     color: rgb(0, 0, 0);
@@ -253,10 +234,12 @@ h1 {
     justify-content: center;
     margin-bottom: 30px;
     align-content: center;
-  }
+}
 
-  #scrollToTop {
+#scrollToTop {
     position: fixed;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
     bottom: 20px;
     right: 20px;
     display: none;
@@ -264,24 +247,35 @@ h1 {
     color: #fff;
     padding: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 5rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 #scrollToTop:hover {
-    background-color: #c4db94;
+    background-color: #e13030;
 }
 
-
 footer {
-    padding-bottom: 0;
-    background-color: rgb(248, 249, 250);
-  }
+    padding-bottom: 5px;
+    padding-top: 3px;
+    background-color: rgb(203, 199, 205);
+}
   
-  .footerText {
+.footerText {
     font-family: 'Poppins', sans-serif;
     font-size: 0.875em;
-    color: #6c757d;
+    color: #222222;
+    text-align: center;
+}
+
+  h2 {
+    border-radius: 0;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.5em;
     text-align: center;
   }
