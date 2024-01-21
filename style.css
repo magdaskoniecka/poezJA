@@ -269,6 +269,10 @@ footer {
     text-align: center;
 }
 
+h1 {
+    font-size: 2.5em;
+}
+
   h2 {
     border-radius: 0;
     font-size: 2em;
